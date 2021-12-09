@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<root>
+  <protocol>
+	<selectedProtocol>1</selectedProtocol>
+	<protocolNames>Hart Profibus Foundation</protocolNames>
+  </protocol>
+  <process>
+	<selectedProcess>1</selectedProcess>
+  </process>
+  <disp>
+	<selectedDisp>1</selectedDisp>
+  </disp>
+  <serialConfig>
+	<porta>3</porta>
+	<baudRate>19200</baudRate>
+	<dataBits>8</dataBits>
+	<paridade>n</paridade>
+	<stopBits>1</stopBits>
+  </serialConfig>
+</root>

@@ -1,0 +1,1 @@
+hrtTypeDate2Hex(strDate)

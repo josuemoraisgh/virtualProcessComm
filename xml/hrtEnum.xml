@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<root>
+  <ENUM00 desc="Table 27.  Response Code">
+    <n_01-07>Error - Single</n_01-07>
+    <n_08>Warning - Multiple</n_08>
+    <n_09-0D>Error - Multiple</n_09-0D>
+    <n_20-40>Error - Single</n_20-40>
+    <n_0E>Warning - Multiple</n_0E>
+    <n_0F>Error - Multiple</n_0F>
+    <n_10-17>Error - Single</n_10-17>
+    <n_18-1B>Warning - Single</n_18-1B>
+    <n_1C>Error - Multiple</n_1C>
+    <n_1D>Error - Multiple</n_1D>
+    <n_1E>Warning - Multiple</n_1E>
+    <n_1F>Warning - Multiple</n_1F>
+    <n_20-40>Error - Single</n_20-40>
+    <n_41-5F>Error - Multiple</n_41-5F>
+    <n_60-6F>Warning - Single</n_60-6F>
+    <n_70-7F>Warning - Multiple</n_70-7F>
+  </ENUM00>
+  <ENUM01 desc="Table 1. Device Type Codes">
+    <n_1>LD301</n_1>
+    <n_2>TT301</n_2>
+    <n_3>301</n_3>
+    <n_4>301</n_4>
+    <n_5>301</n_5>
+    <n_6>DT301</n_6>
+    <n_7>FY400</n_7>
+  </ENUM01>
+  <ENUM02 desc="Table 2. Engineering Unit Codes">
+    <n_01>inches of water at 68 degrees F</n_01>
+    <n_02>inches of mercury at 0 degrees C</n_02>
+    <n_03>feet of water at 68 degrees F</n_03>
+    <n_04>millimeters of water at 68 degrees F</n_04>
+    <n_05>millimeters of mercury at 0 degrees C</n_05>
+    <n_06>pounds per square inch</n_06>
+    <n_07>bars</n_07>
+    <n_08>millibars</n_08>
+    <n_09>grams per square centimeter</n_09>
+    <n_0A>kilograms per square centimeter</n_0A>
+    <n_0B>pascals</n_0B>
+    <n_0C>kilopascals</n_0C>
+    <n_0D>torr</n_0D>
+    <n_0E>atmospheres</n_0E>
+    <n_20>Degrees Celsius</n_20>
+    <n_21>Degrees Fahrenheit</n_21>
+    <n_22>Degrees Rankine</n_22>
+    <n_23>Kelvin</n_23>
+    <n_25>ohms</n_25>
+    <n_26>hertz</n_26>
+    <n_2C>feet</n_2C>
+    <n_2D>meters</n_2D>
+    <n_2F>inches</n_2F>
+    <n_30>centimeters</n_30>
+    <n_31>millimeters</n_31>
+    <n_32>minutes</n_32>
+    <n_33>seconds</n_33>
+    <n_34>hours</n_34>
+    <n_35>days</n_35>
+    <n_38>microsiemens</n_38>
+    <n_39>percent</n_39>
+    <n_3B>pH</n_3B>
+    <n_42>milli siemens per centimeter</n_42>
+    <n_43>micro siemens per centimeter</n_43>
+    <n_44>newton</n_44>
+    <n_65>degrees brix</n_65>
+    <n_69>percent solids per weight</n_69>
+    <n_6A>percent solids per volume</n_6A>
+    <n_6B>degrees balling</n_6B>
+    <n_6C>proof per volume</n_6C>
+    <n_6D>proof per mass</n_6D>
+    <n_8B>parts per million</n_8B>
+    <n_8F>degrees</n_8F>
+    <n_90>radian</n_90>
+    <n_91>inches of water at 60 degrees F</n_91>
+    <n_94>percent consistency</n_94>
+    <n_95>volume percent</n_95>
+    <n_96>percent steam quality</n_96>
+    <n_97>feet in sixteeenths</n_97>
+    <n_98>cubic feet per pound</n_98>
+    <n_99>picofarads</n_99>
+    <n_9A>mililiters per liter</n_9A>
+    <n_9B>microliters per liter</n_9B>
+    <n_A0>percent plato</n_A0>
+    <n_A1>percent lower explosion level</n_A1>
+    <n_A3>kohms</n_A3>
+    <n_A9>parts per billion</n_A9>
+    <n_ED>megapascals</n_ED>
+    <n_EE>inches of water at 4 degrees C</n_EE>
+    <n_EF>millimeters of water at 4 degrees C</n_EF>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM02>
+  <ENUM03 desc="Table 3. Transfer Function Codes">
+    <n_00>Linear</n_00>
+    <n_01>Square Root</n_01>
+    <n_02>Square Root Third Power</n_02>
+    <n_03>Square Root Fifth Power</n_03>
+    <n_04>Special Curve</n_04>
+    <n_05>Square</n_05>
+    <n_E6>Discrete (Switch)</n_E6>
+    <n_E7>Square Root Plus Special Curve</n_E7>
+    <n_E8>Square Root Third Power Plus Special Curve</n_E8>
+    <n_E9>Square Root Fifth Power Plus Special Curve</n_E9>
+    <n_F0-F9>Enumeration May Be Used For Manufacturer Specific Definitions</n_F0-F9>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM03>
+  <ENUM04 desc="Table 4. Material Codes">
+    <n_00>Carbon Steel</n_00>
+    <n_01>Stainless Steel 304</n_01>
+    <n_02>Stainless Steel 316</n_02>
+    <n_03>Hastelloy C</n_03>
+    <n_04>Monel</n_04>
+    <n_05>Tantalum</n_05>
+    <n_06>Titanium</n_06>
+    <n_07>Pt Ir</n_07>
+    <n_08>Alloy 20</n_08>
+    <n_09>Co Cr Ni</n_09>
+    <n_0A>PTFE</n_0A>
+    <n_0B>Vito</n_0B>
+    <n_0C>Buna N</n_0C>
+    <n_0D>Ethyl Prop</n_0D>
+    <n_0E>Urethane</n_0E>
+    <n_0F>Gold Monel</n_0F>
+    <n_10>Tefzel</n_10>
+    <n_11>Ryton</n_11>
+    <n_12>Ceramic</n_12>
+    <n_13>Stainless Steel 316L</n_13>
+    <n_14>PVC</n_14>
+    <n_15>Nitrile Rubber</n_15>
+    <n_16>Kalrez</n_16>
+    <n_17>Inconel</n_17>
+    <n_18>Kynar</n_18>
+    <n_19>Aluminium</n_19>
+    <n_1A>Nickel</n_1A>
+    <n_1B>FEP</n_1B>
+    <n_1C>Stainless Steel 316 Ti</n_1C>
+    <n_1E>Hastelloy C276</n_1E>
+    <n_1F>Klinger C4401</n_1F>
+    <n_20>Thermotork</n_20>
+    <n_21>Grafoil</n_21>
+    <n_22>PTFE Coated 316l Sst</n_22>
+    <n_23>Gold Plated Hastelloy C276</n_23>
+    <n_24>PTFE Glass</n_24>
+    <n_25>PTFE Graphite</n_25>
+    <n_26>Aflas</n_26>
+    <n_EA>PTFE Hastelloy</n_EA>
+    <n_EB>Stainless Steel CF 8M</n_EB>
+    <n_EC>Hastelloy Nitrile SST</n_EC>
+    <n_ED>Gold Plated SST</n_ED>
+    <n_EF>Monel 400</n_EF>
+    <n_F0-F9>Enumeration May Be Used For Manufacturer Specific Definitions</n_F0-F9>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM04>
+  <ENUM06 desc="Table 6. Alarm Selection Codes">
+    <n_00>High</n_00>
+    <n_01>Low</n_01>
+    <n_EF>Hold Last Output Value</n_EF>
+    <n_F0-F9>Enumeration May Be Used For Manufacturer Specific Definitions</n_F0-F9>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM06>
+  <ENUM07 desc="Table 7. Write Protect Codes">
+    <n_00>No - Not Write Protected</n_00>
+    <n_01>Yes - Write Protected</n_01>
+    <n_F0-F9>Enumeration May Be Used For Manufacturer Specific Definitions</n_F0-F9>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM07>
+  <ENUM08 desc="Table 8. Manufacturer Identification Codes">
+    <n_01>Acromag</n_01>
+    <n_02>Allen Bradley</n_02>
+    <n_03>Ametek</n_03>
+    <n_04>Analog Devices</n_04>
+    <n_05>Elsag Bailey</n_05>
+    <n_06>Beckman</n_06>
+    <n_07>Bell Microsensor</n_07>
+    <n_08>Bourns</n_08>
+    <n_09>Bristol Babcock</n_09>
+    <n_0A>Brooks Instrument</n_0A>
+    <n_0B>Chessell</n_0B>
+    <n_0C>Combustion Engineering</n_0C>
+    <n_0D>Daniel Industries</n_0D>
+    <n_0E>Delta</n_0E>
+    <n_0F>Dieterich Standard</n_0F>
+    <n_10>Dohrmann</n_10>
+    <n_11/>
+    <n_12>Elsag Bailey</n_12>
+    <n_13>Fisher Controls</n_13>
+    <n_14>Foxboro</n_14>
+    <n_15>Fuji</n_15>
+    <n_16>ABB Automation</n_16>
+    <n_17>Honeywell</n_17>
+    <n_18>ITT Barton</n_18>
+    <n_19>Kay Ray/Sensall</n_19>
+    <n_1A>ABB Automation</n_1A>
+    <n_1B/>
+    <n_1C>Leslie</n_1C>
+    <n_1D>M-System Co.</n_1D>
+    <n_1E>Measurex</n_1E>
+    <n_1F>Micro Motion</n_1F>
+    <n_20>Moore Industries</n_20>
+    <n_21>Moore Products</n_21>
+    <n_22>Ohkura Electric</n_22>
+    <n_23>Paine</n_23>
+    <n_24>Rochester Instrument Systems</n_24>
+    <n_25>Ronan</n_25>
+    <n_26>Rosemount</n_26>
+    <n_27>Peek Measurement</n_27>
+    <n_28>Schlumberger</n_28>
+    <n_29>Sensall</n_29>
+    <n_2A>Siemens</n_2A>
+    <n_2B>Weed</n_2B>
+    <n_2C>Toshiba</n_2C>
+    <n_2D>Transmation</n_2D>
+    <n_2E>Rosemount Analytic</n_2E>
+    <n_2F>Metso Automation</n_2F>
+    <n_30>Flowserve</n_30>
+    <n_31>Varec</n_31>
+    <n_32>Viatran</n_32>
+    <n_33>Delta/Weed</n_33>
+    <n_34>Westinghouse</n_34>
+    <n_35>Xomox</n_35>
+    <n_36>Yamatake</n_36>
+    <n_37>Yokogawa</n_37>
+    <n_38>Nuovo Pignone</n_38>
+    <n_39>Promac</n_39>
+    <n_3A>Exac Corporation</n_3A>
+    <n_3B>Meggitt Mobrey</n_3B>
+    <n_3C>Arcom Control System</n_3C>
+    <n_3D>Princo</n_3D>
+    <n_3E>Smar</n_3E>
+    <n_3F>Foxboro Eckardt</n_3F>
+    <n_40>Measurement Technology</n_40>
+    <n_41>Applied System Technologies</n_41>
+    <n_42>Samson</n_42>
+    <n_43>Sparling Instruments</n_43>
+    <n_44>Fireye</n_44>
+    <n_45>Krohne</n_45>
+    <n_46>Betz</n_46>
+    <n_47>Druck</n_47>
+    <n_48>SOR</n_48>
+    <n_49>Elcon Instruments</n_49>
+    <n_4A>EMCO</n_4A>
+    <n_4B>Termiflex Corporation</n_4B>
+    <n_4C>VAF Instruments</n_4C>
+    <n_4D>Westlock Controls</n_4D>
+    <n_4E>Drexelbrook</n_4E>
+    <n_4F>Saab Tank Control</n_4F>
+    <n_50>K-TEK</n_50>
+    <n_51>Flowdata</n_51>
+    <n_52>Draeger</n_52>
+    <n_53>Raytek</n_53>
+    <n_54>Siemens Milltronics PI</n_54>
+    <n_55>BTG</n_55>
+    <n_56>Magnetrol</n_56>
+    <n_58>Metso Automation</n_58>
+    <n_59>Milltronics</n_59>
+    <n_59>HELIOS</n_59>
+    <n_5A>Anderson Instrument Company</n_5A>
+    <n_5B>INOR</n_5B>
+    <n_5C>ROBERTSHAW</n_5C>
+    <n_5D>PEPPERL+FUCHS</n_5D>
+    <n_5E>ACCUTECH</n_5E>
+    <n_5F>Flow Measurement</n_5F>
+    <n_60>KAMSTRUP</n_60>
+    <n_61>Knick</n_61>
+    <n_62>VEGA</n_62>
+    <n_63>MTS Systems Corp.</n_63>
+    <n_64>Oval</n_64>
+    <n_65>Masoneilan-Dresser</n_65>
+    <n_66>BESTA</n_66>
+    <n_67>Ohmart</n_67>
+    <n_68>Harold Beck and Sons</n_68>
+    <n_69>rittmeyer instrumentation</n_69>
+    <n_6A>Rossel Messtechnik</n_6A>
+    <n_6B>WIKA</n_6B>
+    <n_6C/>
+    <n_6D>PR Electronics</n_6D>
+    <n_6E>Jordan Controls</n_6E>
+    <n_6F>Valcom s.r.l.</n_6F>
+    <n_70>US ELECTRIC MOTORS</n_70>
+    <n_71>Apparatebau Hundsbach</n_71>
+    <n_72>Dynisco</n_72>
+    <n_73>Spriano</n_73>
+    <n_74>Direct Measurement</n_74>
+    <n_75>Klay Instruments</n_75>
+    <n_76>Action Instruments</n_76>
+    <n_77>MMG Automatiky DTR</n_77>
+    <n_78>Buerkert Fluid Control Systems</n_78>
+    <n_79>AALIANT Process Mgt</n_79>
+    <n_7A>PONDUS INSTRUMENTS</n_7A>
+    <n_7B>ZAP S.A. Ostrow Wielkopolski</n_7B>
+    <n_7C>GLI</n_7C>
+    <n_7D>Fisher-Rosemount Performance Technologies</n_7D>
+    <n_7E>Paper Machine Components</n_7E>
+    <n_7F>LABOM</n_7F>
+    <n_80>Danfoss</n_80>
+    <n_81>Turbo</n_81>
+    <n_82>TOKYO KEISO</n_82>
+    <n_83>SMC</n_83>
+    <n_84>Status Instruments</n_84>
+    <n_85>Huakong</n_85>
+    <n_86>Duon System</n_86>
+    <n_87>Vortek Instruments, LLC</n_87>
+    <n_88>AG Crosby</n_88>
+    <n_89>Action Instruments</n_89>
+    <n_8A>Keystone Controls</n_8A>
+    <n_8B>Thermo Electric Co.</n_8B>
+    <n_8C>ISE-Magtech</n_8C>
+    <n_8D>Rueger</n_8D>
+    <n_8E>Mettler Toledo</n_8E>
+    <n_8F>Det-Tronics</n_8F>
+    <n_90>TN Technologies</n_90>
+    <n_91>DeZURIK</n_91>
+    <n_92>Phase Dynamics</n_92>
+    <n_93>WELLTECH SHANGHAI</n_93>
+    <n_94>ENRAF</n_94>
+    <n_95>4tech ASA</n_95>
+    <n_96>Brandt Instruments</n_96>
+    <n_97>Nivelco</n_97>
+    <n_98>Camille Bauer</n_98>
+    <n_99>Metran</n_99>
+    <n_9A>Milton Roy Co.</n_9A>
+    <n_9B>PMV</n_9B>
+    <n_9C>Turck</n_9C>
+    <n_9D>Panametrics</n_9D>
+    <n_9E>Stahl</n_9E>
+    <n_9F>Analytical Technology Inc.</n_9F>
+    <n_A0>Fieldbus International</n_A0>
+    <n_A1>BERTHOLD</n_A1>
+    <n_A2>InterCorr</n_A2>
+    <n_A3>China BRICONTE Co Ltd</n_A3>
+    <n_A4>Electron Machine</n_A4>
+    <n_A5>Sierra Instruments</n_A5>
+    <n_A6>Fluid Components Intl</n_A6>
+    <n_FA>not_used</n_FA>
+    <n_FB>none</n_FB>
+    <n_FC>unknown</n_FC>
+    <n_FD>special</n_FD>
+  </ENUM08>
+  <ENUM09 desc="Table 9. Burst Mode Control Codes">
+    <n_00>Off</n_00>
+    <n_01>On</n_01>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM09>
+  <ENUM10 desc="Table 10. Physical Signaling Codes">
+    <n_00>Bell  202  Current</n_00>
+    <n_01>Bell 202  Voltage</n_01>
+    <n_02>RS-485</n_02>
+    <n_03>RS-232</n_03>
+    <n_06>Special</n_06>
+  </ENUM10>
+  <ENUM11 desc="Table 11. Flag Assignments">
+    <n_01>Multi-Sensor Field Device</n_01>
+    <n_02>EEPROM Control</n_02>
+    <n_04>Protocol Bridge Device</n_04>
+    <n_08-20>Reserved</n_08-20>
+    <n_40>C8PSK Capable Field Device</n_40>
+    <n_80>C8PSK In Multi-Drop Only</n_80>
+  </ENUM11>
+  <ENUM12 desc="Table 12. Transfer Service Function Codes">
+    <n_00>None</n_00>
+  </ENUM12>
+  <ENUM13 desc="Table 13. Transfer Service Identifier Codes">
+    <n_00>None</n_00>
+  </ENUM13>
+  <ENUM14 desc="Table 14. Operating Mode Codes">
+    <n_00>None</n_00>
+  </ENUM14>
+  <ENUM15 desc="Table 15. Analog Output Numbers Codes">
+    <n_00>Analog Channel 0</n_00>
+    <n_01>Analog Channel 1</n_01>
+    <n_02>Analog Channel 2</n_02>
+    <n_03>Analog Channel 3</n_03>
+    <n_04>Analog Channel 4</n_04>
+  </ENUM15>
+  <ENUM16 desc="Table 16. Loop Current Mode Codes">
+    <n_00>Disabled</n_00>
+    <n_01>Enabled</n_01>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM16>
+  <ENUM17 desc="Table 17. Extended Device Status Codes">
+    <n_01>Maintenance Required. This bit is set to indicate that, while the device has not malfunctioned, the Field Device requires maintenance.</n_01>
+    <n_02>Device Variable Alert. This bit is set if any Device Variable is in an Alarm or Warning State. The host should identify the Device Variable(s) causeing this to be set using the Device Variable Status indicators.</n_02>
+  </ENUM17>
+  <ENUM18 desc="Table 18. Lock Device Codes">
+    <n_00>Unlocked</n_00>
+    <n_01>Lock &#x2014; Temporary (i.e., Device Reset or Power Loss releases the Lock)</n_01>
+    <n_02>Lock &#x2014; Permanent (i.e., Device Reset or Power Loss does not affect the Lock)</n_02>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM18>
+  <ENUM19 desc="Table 19. Write Device Variable Codes">
+    <n_00>Normal</n_00>
+    <n_01>Fixed Value</n_01>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM19>
+  <ENUM20 desc="Table 20. Device Variable Family Codes">
+    <n_00-03>Reserved. MUST NOT BE USED</n_00-03>
+    <n_04>Temperature</n_04>
+    <n_05>Pressure</n_05>
+    <n_06>Valve / Actuator</n_06>
+    <n_07>Simple PID Control</n_07>
+    <n_84-F9> Reserved. MUST NOT BE USED</n_84-F9>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM20>
+  <ENUM21 desc="Table 21. Device Variable Classification Codes">
+    <n_00>Device Variable Not Classified</n_00>
+    <n_01-3F>Reserved</n_01-3F>
+    <n_40>Temperature</n_40>
+    <n_41>Pressure</n_41>
+    <n_42>Volumetric Flow</n_42>
+    <n_43>Velocity</n_43>
+    <n_44>Volume</n_44>
+    <n_45>Length</n_45>
+    <n_46>Time</n_46>
+    <n_47>Mass</n_47>
+    <n_48>Mass Flow</n_48>
+    <n_49>Mass Per Volume</n_49>
+    <n_4A>Viscosity</n_4A>
+    <n_4B>Angular Velocity</n_4B>
+    <n_4C>Area</n_4C>
+    <n_4D>Energy (Work)</n_4D>
+    <n_4E>Force</n_4E>
+    <n_4F>Power</n_4F>
+    <n_50>Frequency</n_50>
+    <n_51>Analytical</n_51>
+    <n_52>Capacitance</n_52>
+    <n_53>Emf</n_53>
+    <n_54>Current</n_54>
+    <n_55>Resistance</n_55>
+    <n_56>Angle</n_56>
+    <n_57>Conductance</n_57>
+    <n_58>Volume Per Volume</n_58>
+    <n_59>Volume Per Mass</n_59>
+    <n_5A>Concentration</n_5A>
+    <n_5B>Valve Actuator</n_5B>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM21>
+  <ENUM22 desc="Table 22. Trim Point Codes">
+    <n_00>Reserved</n_00>
+    <n_01>Lower Trim Point Supported</n_01>
+    <n_02>Upper Trim Point  Supported</n_02>
+    <n_03>Lower And Upper Trim Point Supported</n_03>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM22>
+  <ENUM23 desc="Table 23.  Capture Mode Codes">
+    <n_00>Disabled</n_00>
+    <n_01>Enabled - Catch data from specified Field Device</n_01>
+    <n_02>Enabled - Catch data from BACK message</n_02>
+    <n_FA>Not Used</n_FA>
+    <n_FB>None</n_FB>
+    <n_FC>Unknown</n_FC>
+    <n_FD>Special</n_FD>
+  </ENUM23>
+  <ENUM24 desc="Table 24.  Physical Layer Type Codes">
+    <n_00>Asynchronous (e.g., FSK, RS-485)</n_00>
+    <n_01>Synchronous (e.g., PSK)</n_01>
+    <n_03>Reserved</n_03>
+  </ENUM24>
+  <ENUM25 desc="Table 25.  Lock Device Status">
+    <n_01>Device Locked</n_01>
+    <n_02>Lock is Permanent</n_02>
+    <n_04>Locked by Primary Master</n_04>
+  </ENUM25>
+  <ENUM26 desc="Table 26.  Analog Channel Flags">
+    <n_01>This Analog Channel is a Field Device analog input channel. In other words, the Field Device has an ADC connected to this channel when this bit is set.</n_01>
+  </ENUM26>
+  <ENUM27 desc="Table 27.  Response Code">
+    <n_01-07>Error - Single</n_01-07>
+    <n_08>Warning - Multiple</n_08>
+    <n_09-0D>Error - Multiple</n_09-0D>
+    <n_20-40>Error - Single</n_20-40>
+    <n_0E>Warning - Multiple</n_0E>
+    <n_0F>Error - Multiple</n_0F>
+    <n_10-17>Error - Single</n_10-17>
+    <n_18-1B>Warning - Single</n_18-1B>
+    <n_1C>Error - Multiple</n_1C>
+    <n_1D>Error - Multiple</n_1D>
+    <n_1E>Warning - Multiple</n_1E>
+    <n_1F>Warning - Multiple</n_1F>
+    <n_20-40>Error - Single</n_20-40>
+    <n_41-5F>Error - Multiple</n_41-5F>
+    <n_60-6F>Warning - Single</n_60-6F>
+    <n_70-7F>Warning - Multiple</n_70-7F>
+  </ENUM27>
+</root>

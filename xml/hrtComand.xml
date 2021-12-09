@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<root>
+  <hrtCmd0 desc="Comando 0 - Ver 5.2 Long Frame" NBBody="$0E">
+    <item_1>error_code</item_1>
+    <item_2>$FE</item_2>
+    <item_3/>
+    <item_4>device_type</item_4>
+    <item_5>request_preambles</item_5>
+    <item_6>hart_revision</item_6>
+    <item_7>software_revision</item_7>
+    <item_8>transmitter_revision</item_8>
+    <item_9>hardware_revision</item_9>
+    <item_10>device_flags</item_10>
+    <item_11>device_id</item_11>
+  </hrtCmd0>
+  <hrtCmd1 desc="Comando 1 - Ver 5.2 (Read Primary Variable)" NBBody="$07">
+    <item_1>error_code</item_1>
+    <item_2>unit_code</item_2>
+    <item_3>PROCESS_VARIABLE</item_3>
+  </hrtCmd1>
+  <hrtCmd2 desc="Comando 2 - Ver 5.2 (Read Loop Current And Percent Of Range)" NBBody="$0A">
+    <item_1>error_code</item_1>
+    <item_2>loop_current</item_2>
+    <item_3>percent_of_range</item_3>
+  </hrtCmd2>
+  <hrtCmd3Geovani/>
+  <hrtCmd6Rai/>
+  <hrtCmd7JoaoPedro/>
+  <hrtCmd12Thael/>
+  <hrtCmd13Adriel/>
+  <hrtCmd14Samuel/>
+  <hrtCmd15/>
+  <hrtCmd16/>
+  <hrtCmd17/>
+  <hrtCmd18/>
+  <hrtCmd19/>
+  <hrtCmd33/>
+  <hrtCmd38/>
+  <hrtCmd40/>
+  <hrtCmd41/>
+  <hrtCmd42/>
+  <hrtCmd45/>
+  <hrtCmd46/>
+  <hrtCmd80/>
+  <hrtCmd130/>
+  <hrtCmd132/>
+  <hrtCmd135/>
+  <hrtCmd136/>
+  <hrtCmd138/>
+  <hrtCmd140/>
+  <hrtCmd152/>
+  <hrtCmd162/>
+  <hrtCmd164/>
+  <hrtCmd166/>
+  <hrtCmd168/>
+  <hrtCmd173/>
+  <hrtCmd185/>
+  <hrtCmd187/>
+  <hrtCmd198/>
+  <hrtCmd223/>
+</root>
